@@ -1,0 +1,177 @@
+.style{
+  
+    height: 70px;
+}
+.main_container{
+    border-bottom: 1px solid rgb(222, 226, 230);
+    background-color: rgb(255, 255, 255);
+}
+#logo{
+    width: 2.5rem;
+    margin-top: 10%;
+}
+@media(max-width:1000px){
+    #logo{
+      margin-top: 0;
+
+    }
+    .style{
+        height: 50px;
+        
+    }
+    .pro_icon{
+        margin-left: 45%;
+    }
+   
+  }
+.nav{
+    height: 100%;
+   
+    align-items: center;
+
+}
+h6{
+    margin-left: 40%;
+    font-weight: lighter;
+    font-family:Helvetica,sans-serif;
+    color: rgb(120, 123, 124);
+    
+}
+#search{
+    width: 120%;
+    border-radius: 30px;
+    height: 2rem;
+    margin-top: 6%;
+    outline: none;
+    border: 1px solid rgb(222, 226, 230);
+    padding-left: 16%;
+    box-shadow: .1px .1px 4px rgb(222, 226, 230) ;
+
+}
+::placeholder{
+   font-size: 12px;
+   
+   color: rgb(201, 203, 203);
+}
+.search_div{
+    position: relative;
+}
+.search_icon{
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+   
+}
+#profile_img{
+    width: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.4rem;
+}
+.green_bar{
+    margin-top: 4.57rem;
+    background-color: rgb(30, 57, 50);
+    height: 5rem;
+    color: #fff;
+    
+
+    
+}
+.green_row h5{
+    font-weight: lighter;
+    margin-top: 1.3rem;
+    margin-left: -1.4rem;
+    font-size: 20px;
+}
+.know_more{
+    width: 6.3rem;
+    padding-left: 10px;
+    height: 2rem;
+    border-radius: 30px;
+    border: 1px solid white;
+    font-weight: bold;
+    padding-top: .31rem;
+    font-size: 14px;
+    margin-top: 1.3rem;
+}
+@media(max-width:900px){
+    .items_name_bar{
+        display: none;
+
+    }
+   
+   
+  }
+.items_name_bar{
+    
+    height: 4rem;
+}
+.items_name h3{
+    color: rgb(30, 57, 50);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-left: -2rem;
+  
+    
+
+}
+.items_pic_bar{
+    margin-left: 0;
+    margin-top: 2rem;
+   
+}
+.pic{
+    background-color: aquamarine;
+    position: relative;
+    height: 8rem;
+   
+    
+    
+}
+.pic p{
+    position: absolute;
+   top: 7rem;
+    left: 2.5rem;
+    font-weight: bold;
+
+}
+.Handcrafted{
+    width: 7rem;
+    overflow: hidden;
+    object-fit: cover;
+}
+#srk{
+  
+    
+}
+/* ========== */
+.zoom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 7rem; /* Set the desired height for the zoom container */
+    overflow: hidden;
+    border-radius: 20rem;
+    
+
+
+     /* Hide any overflow when the image scales up */
+  }
+  .zoom-container:hover {
+    border: 2px solid rgb(58, 105, 92);
+
+     /* Hide any overflow when the image scales up */
+  }
+  
+  /* Set the initial size of the image */
+  .zoom-container img {
+    width: 100%; /* Adjust this to your preferred size */
+    height: auto;
+    transition: transform 0.3s ease; /* Add a smooth transition for the zoom effect */
+  }
+  
+  /* Apply the zoom effect on hover */
+  .zoom-container img:hover {
+    transform: scale(1.2);
+     /* Increase the scale to zoom in (1.2 means 120%) */
+  }
